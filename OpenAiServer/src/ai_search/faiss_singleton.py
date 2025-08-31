@@ -4,8 +4,9 @@ from .faiss_impl import FaissSearch
 import os
 import torch
 # ====== Cấu hình ======
-index_file = "C:\\Users\\magic\\Documents\\repo\\OpenAiServer\\OpenAIServer\\res\\my_index.faiss"
-metadata_file = "C:\\Users\\magic\\Documents\\repo\\OpenAiServer\\OpenAIServer\\res\\metadata.json"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Root/
+index_file = os.path.join(BASE_DIR, "..", "res", "my_index.faiss")
+metadata_file = os.path.join(BASE_DIR, "..", "res", "metadata.json")
 
 class FaissSingleton:
     _instance = None

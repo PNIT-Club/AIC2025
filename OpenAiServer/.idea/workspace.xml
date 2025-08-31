@@ -5,324 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e3db88b-d07f-4b9c-a276-f4287c110a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OpenAIServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ai_search/faiss_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ai_search/faiss_singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ai_search/obj_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/032.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/033.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/035.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/037.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/044.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/045.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/046.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/047.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/048.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/050.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/052.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/053.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/054.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/055.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/056.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/057.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/058.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/059.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/060.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/061.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/062.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/063.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/064.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/065.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/066.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/068.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/069.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/070.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/071.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/072.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/073.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/074.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/075.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/076.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/077.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/078.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/079.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/081.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/082.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/083.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/084.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/085.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/086.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/087.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/088.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/089.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/090.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/091.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/092.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/093.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/094.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/095.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/096.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/097.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/098.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/099.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/106.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/107.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/108.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/112.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/114.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/116.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/117.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/118.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/120.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/124.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/125.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/126.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/127.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/129.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/130.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/131.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/133.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/134.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/135.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/136.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/138.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/139.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/142.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/143.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/144.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/146.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/147.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/148.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/153.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/154.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/155.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/156.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/157.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/158.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/159.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/161.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/162.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/163.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/164.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/165.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/166.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/167.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/168.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/169.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/170.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/171.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/172.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/173.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/174.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/176.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/177.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/178.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/179.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/180.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/181.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/182.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/183.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/184.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/185.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/186.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/187.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/188.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/189.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/190.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/191.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/192.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/193.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/194.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/196.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/197.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/198.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/199.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/204.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/205.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/206.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/207.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/208.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/209.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/210.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/212.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/213.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/214.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/215.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/216.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/217.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/218.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/219.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/220.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/221.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/223.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/224.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/226.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/227.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/228.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/229.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/230.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/231.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/233.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/234.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/235.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/237.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/238.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/239.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/240.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/241.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/242.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/243.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/244.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/245.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/246.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/247.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/248.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/249.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/251.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/254.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/256.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/257.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/258.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/259.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/260.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/261.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/262.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/263.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/264.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/265.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/266.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/267.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/271.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/272.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/273.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/274.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/275.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/276.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/278.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/279.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/281.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/282.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/283.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/284.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/285.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/286.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/287.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/288.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/289.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/290.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/291.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/292.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/293.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/294.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/296.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/297.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/298.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/299.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/302.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/303.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/304.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/305.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/306.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/images/L21_V001/307.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OpenAIServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenAIServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/res/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_search/faiss_singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_search/faiss_singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -354,15 +43,16 @@
   "keyToString": {
     "Python.faiss_singleton.executor": "Run",
     "Python.index.executor": "Run",
-    "Python.obj_detection.executor": "Debug",
+    "Python.obj_detection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/magic/Documents/repo/OpenAiServer/OpenAIServer/res/images",
+    "last_opened_file_path": "C:/Users/magic/Documents/repo/AIC/OpenAiServer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -372,6 +62,7 @@
       <recent name="C:\Users\magic\Documents\repo\OpenAiServer\OpenAIServer\src\res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\magic\Documents\repo\AIC\OpenAiServer\src\res\images\L22_a" />
       <recent name="C:\Users\magic\Documents\repo\OpenAiServer\OpenAIServer\src\res\images" />
       <recent name="C:\Users\magic\Documents\repo\OpenAiServer\OpenAIServer\res\images" />
       <recent name="C:\Users\magic\Documents\repo\OpenAiServer\OpenAIServer\src" />
@@ -427,15 +118,24 @@
       <workItem from="1755437445556" duration="8375000" />
       <workItem from="1755954855230" duration="1530000" />
       <workItem from="1756371392953" duration="1487000" />
+      <workItem from="1756604743558" duration="4708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OpenAiServer$faiss_singleton.coverage" NAME="faiss_singleton Coverage Results" MODIFIED="1756605498532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ai_search" />
     <SUITE FILE_PATH="coverage/OpenAIServer$obj_detection.coverage" NAME="obj_detection Coverage Results" MODIFIED="1756371453852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ai_search" />
     <SUITE FILE_PATH="coverage/OpenAIServer$index.coverage" NAME="index Coverage Results" MODIFIED="1756372929167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenAIServer$faiss_singleton.coverage" NAME="faiss_singleton Coverage Results" MODIFIED="1755443517369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ai_search" />
+    <SUITE FILE_PATH="coverage/OpenAiServer$index.coverage" NAME="index Coverage Results" MODIFIED="1756609096513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/OpenAiServer$obj_detection.coverage" NAME="obj_detection Coverage Results" MODIFIED="1756605043246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ai_search" />
   </component>
 </project>
