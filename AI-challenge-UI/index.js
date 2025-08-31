@@ -57,7 +57,7 @@ if (!imageContainer || !spinner || !filterContainer || !searchMenu || !inputFiel
     showAlertDanger("An unexpected error occurred")
 
 
-const fetchEndpoint = "http://localhost:5000/search"
+const fetchEndpoint = "http://localhost:5000"
 
 inputField.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
@@ -78,7 +78,7 @@ inputField.addEventListener("keyup", function (event) {
         // Mock query
         const fetchEndpointFn = async () => {
             try {
-                const response = await fetch(`${fetchEndpoint}?searchType=test&q=${event.target.value}`);
+                const response = await fetch(`${fetchEndpoint}/search?searchType=test&q=${event.target.value}`);
                 if (!response.ok) {
                     throw new Error(`Response status: ${response.status}`);
                 }
@@ -94,9 +94,10 @@ inputField.addEventListener("keyup", function (event) {
                     results.forEach(({ url, id }) => {
                         const imgCard = document.importNode(template, true);
                         const imgLink = imgCard.querySelector(".video-link");
+                        const vidID = url.split("/")[5] + "/" + url.split("/")[6];
 
                         if (imgLink) {
-                            imgLink.textContent = url.split("/")[4] + "/" + url.split("/")[5];
+                            imgLink.textContent = vidID;
                             imgLink.href = `https://drive.google.com/file/d/${id}/preview`;
                         }
 
@@ -105,6 +106,11 @@ inputField.addEventListener("keyup", function (event) {
                         if (imgElement) {
                             imgElement.src = url;
                         }
+
+                        imgElement.addEventListener("click", async () => {
+                            openImageCarousel(`${fetchEndpoint}/mlt?vidID=${url.split("/")[4]}/${vidID}`)
+                        })
+
                         imageContainer.appendChild(imgCard);
                     });
                 } else {
@@ -119,3 +125,82 @@ inputField.addEventListener("keyup", function (event) {
         spinner.classList.add("d-none");
     }
 });
+
+// Function to open fullscreen carousel
+async function openImageCarousel(endpointUrl) {
+    try {
+        // Fetch image URLs from backend
+        const response = await fetch(endpointUrl);
+        if (!response.ok) throw new Error("Failed to fetch images");
+        const { results } = await response.json(); // assume array of image URLs
+
+        // Remove existing carousel if it exists
+        const existing = document.getElementById("fullscreenCarouselWrapper");
+        if (existing) existing.remove();
+
+        // Build carousel structure
+        const wrapper = document.createElement("div");
+        wrapper.id = "fullscreenCarouselWrapper";
+        wrapper.style.position = "absolute";
+        wrapper.style.top = "0";
+        wrapper.style.left = "0";
+        wrapper.style.width = "100%";
+        wrapper.style.height = "100%";
+        wrapper.style.backgroundColor = "rgba(0,0,0,0.9)";
+        wrapper.style.zIndex = "10";
+
+        // Cancel/close button
+        const closeBtn = document.createElement("button");
+        closeBtn.innerHTML = "&times;";
+        closeBtn.style.zIndex = 999;
+        closeBtn.className = "btn btn-light position-absolute top-0 end-0 m-3 fs-3";
+        closeBtn.onclick = () => wrapper.remove();
+        wrapper.appendChild(closeBtn);
+
+        // Carousel HTML
+        const carouselId = "dynamicCarousel";
+        const carousel = document.createElement("div");
+        carousel.id = carouselId;
+        carousel.className = "carousel slide h-100";
+        carousel.setAttribute("data-bs-ride", "carousel");
+
+        const inner = document.createElement("div");
+        inner.className = "carousel-inner h-100 position-relative";
+
+        results.forEach((url, i) => {
+            const item = document.createElement("div");
+            item.className = "carousel-item h-100" + (i === 0 ? " active" : "");
+
+            const img = document.createElement("img");
+            img.src = url;
+            img.className = "img-fluid position-absolute top-50 start-50 translate-middle ";
+
+            item.appendChild(img);
+            inner.appendChild(item);
+        });
+
+        // Controls
+        const prev = `
+        <button class="carousel-control-prev" type="button" style="z-indez: 11" data-bs-target="#${carouselId}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>`;
+        const next = `
+        <button class="carousel-control-next" type="button" style="z-indez: 11" data-bs-target="#${carouselId}" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>`;
+
+        carousel.appendChild(inner);
+        carousel.insertAdjacentHTML("beforeend", prev + next);
+        wrapper.appendChild(carousel);
+
+        // Add to body
+        document.body.appendChild(wrapper);
+
+        // Initialize Bootstrap carousel
+        new bootstrap.Carousel(document.getElementById(carouselId), {
+            interval: 300000, // auto-slide every 3s (optional)
+        });
+    } catch (err) {
+        console.error("Error loading carousel:", err);
+    }
+}
